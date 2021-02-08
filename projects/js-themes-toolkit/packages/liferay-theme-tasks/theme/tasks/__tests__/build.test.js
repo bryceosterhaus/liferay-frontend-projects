@@ -97,15 +97,19 @@ afterAll(() => {
 
 describe('using lib_sass', () => {
 	let buildPath;
-	let sassOptionsCalled;
 	let tempTheme;
 
 	afterEach(() => {
 		cleanTempTheme(tempTheme);
 	});
 
+	beforeEach(() => {
+		buildPath = undefined;
+		tempTheme = undefined;
+	});
+
 	it('build task should correctly compile theme', (done) => {
-		sassOptionsCalled = false;
+		let sassOptionsCalled = false;
 
 		tempTheme = setupTempTheme({
 			init: () =>
@@ -140,6 +144,10 @@ describe('using lib_sass', () => {
 	});
 
 	it('build task should correctly compile theme with dart-sass', (done) => {
+		const initialTimeout = jest.setTimeout.Timeout;
+
+		jest.setTimeout.Timeout = 50000;
+
 		tempTheme = setupTempTheme({
 			init: () =>
 				registerTasks({
@@ -159,7 +167,11 @@ describe('using lib_sass', () => {
 			project.options.pathBuild.asNative
 		);
 
-		project.gulp.runSequence('build', done);
+		project.gulp.runSequence('build', () => {
+			jest.setTimeout.Timeout = initialTimeout;
+
+			done();
+		});
 	});
 
 	function buildHookFn(gulp) {
