@@ -26,7 +26,7 @@
 		"fs-extra": "^9.0.1",
 		"globby": "^11.0.1",
 		"gulp-coveralls": "0.1.4",
-		"http-server": "^0.11.1",
+		"http-server": "^0.12.3",
 		"jest": "26.4.2",
 		"liferay-frontend-theme-styled": "6.0.1-test.1c962d5e12be",
 		"liferay-frontend-theme-unstyled": "6.0.1-test.1c962d5e12be",
