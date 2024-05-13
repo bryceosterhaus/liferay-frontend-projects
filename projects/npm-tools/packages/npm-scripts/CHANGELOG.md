@@ -1,3 +1,43 @@
+## [npm-scripts/v51.0.1](https://github.com/liferay/liferay-frontend-projects/tree/npm-scripts/v51.0.1) (2024-05-03)
+
+[Full changelog](https://github.com/liferay/liferay-frontend-projects/compare/npm-scripts/v51.0.0...npm-scripts/v51.0.1)
+
+### :wrench: Bug fixes
+
+-   fix(npm-scripts): add preflight check for 'export default' in package entry point ([\#1205](https://github.com/liferay/liferay-frontend-projects/pull/1205))
+
+## [npm-scripts/v51.0.0](https://github.com/liferay/liferay-frontend-projects/tree/npm-scripts/v51.0.0) (2024-04-30)
+
+[Full changelog](https://github.com/liferay/liferay-frontend-projects/compare/npm-scripts/v50.0.0...npm-scripts/v51.0.0)
+
+### :new: Features
+
+-   chore(npm-scripts): Update dependencies list ([\#1203](https://github.com/liferay/liferay-frontend-projects/pull/1203))
+-   feat(npm-scripts)!: remove legacy build tooling ([\#1203](https://github.com/liferay/liferay-frontend-projects/pull/1203))
+-   feat(npm-scripts)!: remove code relating to cacheing build ([\#1203](https://github.com/liferay/liferay-frontend-projects/pull/1203))
+-   feat(npm-scripts)!: remove code relating to storybook ([\#1203](https://github.com/liferay/liferay-frontend-projects/pull/1203))
+
+### :house: Chores
+
+-   chore(npm-scripts): remove legacy build tooling ([\#1203](https://github.com/liferay/liferay-frontend-projects/pull/1203))
+
+## [npm-scripts/v50.0.0](https://github.com/liferay/liferay-frontend-projects/tree/npm-scripts/v50.0.0) (2024-04-23)
+
+[Full changelog](https://github.com/liferay/liferay-frontend-projects/compare/npm-scripts/v49.2.3...npm-scripts/v50.0.0)
+
+### :new: Features
+
+-   feat(npm-scripts): update for node v20 ([\#1184](https://github.com/liferay/liferay-frontend-projects/pull/1184))
+
+## [npm-scripts/v49.2.3](https://github.com/liferay/liferay-frontend-projects/tree/npm-scripts/v49.2.3) (2024-03-21)
+
+[Full changelog](https://github.com/liferay/liferay-frontend-projects/compare/npm-scripts/v49.2.2...npm-scripts/v49.2.3)
+
+### :wrench: Bug fixes
+
+-   fix(npm-scripts): fix unit test to use master branch name ([\#1200](https://github.com/liferay/liferay-frontend-projects/pull/1200))
+-   fix(npm-scripts): fix support for windows file system ([\#1199](https://github.com/liferay/liferay-frontend-projects/pull/1199))
+
 ## [npm-scripts/v49.2.2](https://github.com/liferay/liferay-frontend-projects/tree/npm-scripts/v49.2.2) (2024-03-13)
 
 [Full changelog](https://github.com/liferay/liferay-frontend-projects/compare/npm-scripts/v49.2.1...npm-scripts/v49.2.2)
