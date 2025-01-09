@@ -21,5 +21,6 @@
 		"copyfiles": "node ../../scripts/copyfiles.js",
 		"prepublish": "yarn build"
 	},
-	"version": "2.32.1-alpha.0"
+	"version": "2.32.1-2.32.1-alpha.1.0",
+	"gitHead": "a8e8f3b1f2d3578f7b05db518f9292a1e5ac3206"
 }
